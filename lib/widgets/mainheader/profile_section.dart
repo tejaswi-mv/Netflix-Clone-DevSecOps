@@ -8,9 +8,9 @@ class ProfileSection extends StatelessWidget{
 
     return Row(
       children: const [
-        Text("Rexford Nyarko", style: TextStyle(color: Colors.white, fontSize: 18),),
+        Text("Venu Tejaswi", style: TextStyle(color: Colors.white, fontSize: 18),),
         SizedBox(width: 20,),
-        CircleAvatar(backgroundImage: AssetImage("assets/img/profile.thumbnail.jpeg"), radius: 35,),
+        CircleAvatar(backgroundImage: AssetImage("assets/img/profile.png"), radius: 35,),
         SizedBox(width: 15,),
         Icon(Icons.settings, color: Colors.white,),
         SizedBox(width: 40,),
